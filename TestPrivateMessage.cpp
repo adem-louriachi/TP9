@@ -6,7 +6,7 @@
            message.displayContent ();
            cout << endl;
        } // sendMessage()
-       void addFriend (User * friend) { cout << "ajouté" << endl; }
+       void addFriend (User * oneFriend) { cout << "ajouté" << endl; }
        User * getFriend (unsigned i) const { cout << i << endl; return User (); }
        System * getSystem (void) const { cout << "système" << endl; return NULL; }
        void addMessage (const PrivateMessage & message) { message.displayContent (); cout  << endl; }
