@@ -9,7 +9,7 @@
        void addFriend (const User & friend) { cout << "ajouté" << endl; }
        User getFriend (unsigned i) const { cout << i << endl; return User (); }
        System * getSystem (void) const { cout << "système" << endl; return NULL; }
-       void addMessage (const PrivateMessage & message) { cout << message << endl; }
+       void addMessage (const PrivateMessage & message) { message.displayContent (); cout  << endl; }
        
     }; // User
     
@@ -21,7 +21,7 @@
         cout << " posté le : ";
         displayDate (message.getDate ());
         cout << " à ";
-        displayHour (message.getDate ());
+        displayHour (message.getHour ());
         cout << endl;
         message.getSender ()->getFriend (5);
  
