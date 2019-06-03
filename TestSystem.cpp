@@ -1,21 +1,21 @@
-        System (void) : myNbUsers (0), myNbMessages (0)
-        {
-            myUsers.reserve (1000);
-            myPublicMessages.reserve (1000);
-            // création des Users
-            addUser ("Alfred");
-            addUser ("Alain");
-            addUser ("Sophie");
-            addUser ("Emmanuel");
-            addUser ("Christian");
-            addUser ("Petru");
-            addUser ("Marc");
-            /* verification des Users */
-            cout << myUsers.size () << endl;
-            for (const User & user : myUsers)
-            {
-                cout << user.getName () << endl;
-            }
+//        System (void) : myNbUsers (0), myNbMessages (0)
+//        {
+//            myUsers.reserve (1000);
+//            myPublicMessages.reserve (1000);
+//            // création des Users
+//            addUser ("Alfred");
+//            addUser ("Alain");
+//            addUser ("Sophie");
+//            addUser ("Emmanuel");
+//            addUser ("Christian");
+//            addUser ("Petru");
+//            addUser ("Marc");
+//            /* verification des Users */
+//            cout << myUsers.size () << endl;
+//            for (const User & user : myUsers)
+//            {
+//                cout << user.getName () << endl;
+//            }
  
  
             /* création de leurs amis * /
@@ -94,4 +94,4 @@
             }
 /*    */
  
-         } // System()
+//         } // System()

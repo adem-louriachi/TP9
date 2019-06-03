@@ -1,4 +1,9 @@
-    class User
+#include <iostream>
+#include "publicmessage.h"
+
+using namespace std;
+
+class User
     {
        public :
        void sendMessage (const PrivateMessage & message)
